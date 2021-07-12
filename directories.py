@@ -4,7 +4,6 @@
 import pandas as pd
 import numpy as np
 import os
-import sys
 
 # Obtaining the path into the directory form the user:
 dir_path=input('Directory path:')
