@@ -47,6 +47,9 @@ for i in range(0,d_frame_files.shape[0]):
 # New dataframe with the normal tree structure
 df_tree=pd.DataFrame({'path':paths,'file':list(d_frame_files[0])})
 
+# Saves the dataframe into a csv file
+df_tree.to_csv('dirs_normal.csv', sep=",", index=True)
+
 # Print part of the dataframe
 print(df_tree[:60])
 
