@@ -10,4 +10,4 @@ The subdirectory dirs/ contains a Windows executable that saves directory tree s
 Please, unzip the lib.zip file (it contains folder lib). Download with all the files in folder dirs/.
 The executable is ready to run.
 Edit the file path.txt so it contains the path to your directory. The number in the second line is the
-maximum depth you want the program to scan.
+maximum depth you want the program to scan (when set to 0, no limit on depth).
